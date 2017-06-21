@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>RitheeNhep-Contactusform</title>
+    </head>
+<body>
+ 
+<form action="fake.html" type="POST">
+  Fist Name <input type="text" name="First_name" /><br/>
+  Last Name<input type="text" name="Last_name"/><br/>
+  Email   <input type="text" name="Email"/><br/>
+  <br/>
+  Type of license:
+  <input type="radio" name="Choice" value="Business" checked/>Business
+  <input type="radio" name="Choice" value="Personal"/>Personal
+  <br/>
+  Reason: <select name="reaseon">
+  <option value="slectareason"> Select a reason</option>
+  <option value="Software_support">Software Support</option>
+  <option value="Hard_support">Hardware Support</option>
+  <option value="Infomation_request">Inforation Request</option>
+  </select>
+  <br/>
+  <br/>
+  Additional Infomation:<textarea rows=10 cols=30></textarea>
+  <br/>
+  <input type="checkbox" name="term"/>I have read the terms of service        
+  </br>
+  <input type="submit" value="Send Request"/>
+</form>
