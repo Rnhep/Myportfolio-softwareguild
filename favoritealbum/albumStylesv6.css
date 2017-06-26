@@ -1,0 +1,52 @@
+
+.center{
+    text-align: center;
+}
+.bg{
+    background-color: gray;
+
+}
+table {
+    width: 100%;
+}
+table, th, td {
+    border: 1px solid black;
+}
+#signers {
+
+}
+span {
+    font-style: italic;
+}
+#band {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+
+}
+a:hover {
+    text-decoration: none;
+    background-color:grey;
+    text-decoration: underline;
+    
+}
+tr {
+    font-style: italic;
+    background-color: greenyellow
+}
+
+  table caption {
+	padding: .5em 0;
+}
+
+@media screen and (max-width: 980px) {
+  table caption {
+    border-bottom: 1px solid #ddd;
+    
+  }
+
+}
+
+          

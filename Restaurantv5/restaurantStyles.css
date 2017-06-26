@@ -10,7 +10,7 @@
        }
 
 .nav {
-         margin-left: 0px;
+         margin-left: -40px;
      }
 .menu {
          display:inline-flex; 
@@ -22,7 +22,7 @@ p {
  }
         
 ul {
-     margin-left: 30px;
+     margin-left: 0px;
 
     }
 #header {
@@ -57,7 +57,7 @@ footer {
           background-color:white;
         }
   .nav {
-            margin-left: 0px;
+            margin-left: -40px;
             margin-top: -20px;
             border-top:1px solid black;
             border-bottom: 1px solid black
@@ -71,7 +71,7 @@ footer {
             text-align: center;
         }
          ul {
-        margin-left: 30px;
+        margin-left: 0px;
         height:90px;
         background-color:white;
     }
@@ -104,4 +104,3 @@ footer {
       text-decoration: underline;
       
   }
- 
