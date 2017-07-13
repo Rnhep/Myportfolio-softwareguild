@@ -1,0 +1,32 @@
+  <html>
+    <head>
+    <title>Step Count</title>
+    </head>
+    <div class="container">
+               <h1>Enter Number1</h1>
+               <form name="number" class="form-inline">
+               <div class="form-group">
+                <label for="starting">Starting Number</label>
+                <input type="text" id="starting" class="form-control">
+               </div> <div class="form-group">
+                   <label for="step">numbers of evens</label>
+                   <input type="text" id="step" class="form-control">
+               </div>
+               </form>
+               <button type="button" onclick="evenDisplay()" class="btn" >submit</button>
+        </div>      
+    <script>
+    function evenDisplay() {
+    var starting = document.forms["number"]["starting"].value;
+    var ending = document.forms["number"]["ending"].value;
+    var step = document.forms["number"]["step"].value;
+
+    if (starting =="" || isNaN(starting)) {
+        alert("Num1 must be filled in with a number.");
+        return false;
+    }
+    }
+    </script>
+    
+       </body>
+     </html>
